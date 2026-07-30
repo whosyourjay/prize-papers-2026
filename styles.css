@@ -40,7 +40,7 @@ a {
   justify-content: space-between;
   width: min(calc(100% - 48px), var(--max-width));
   margin: 0 auto;
-  padding: 25px 0;
+  padding: 18px 0;
   color: var(--muted);
   border-bottom: 1px solid var(--line);
   font-size: 0.75rem;
@@ -56,13 +56,40 @@ a {
   text-decoration: none;
 }
 
+.book-links {
+  display: flex;
+  gap: 8px;
+}
+
+.book-links a {
+  padding: 5px 9px;
+  color: var(--green);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.book-links a:hover {
+  color: var(--ink);
+  background: var(--green-light);
+  border-color: #b9c9c3;
+}
+
+.book-links a[lang] {
+  letter-spacing: 0.03em;
+}
+
 main {
   width: min(calc(100% - 48px), var(--max-width));
   margin: 0 auto;
 }
 
 .introduction {
-  padding: 92px 0 82px;
+  padding: 54px 0 48px;
 }
 
 .kicker {
@@ -93,7 +120,7 @@ h1 {
 
 .lede {
   max-width: 660px;
-  margin: 25px 0 48px;
+  margin: 18px 0 30px;
   color: var(--muted);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.15rem, 2.2vw, 1.45rem);
@@ -134,7 +161,7 @@ h1 {
 }
 
 .calendar-overview {
-  padding: 25px 0 105px;
+  padding: 10px 0 58px;
 }
 
 .calendar-heading {
@@ -162,7 +189,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  margin-top: 38px;
+  margin-top: 24px;
 }
 
 .calendar-card {
@@ -202,8 +229,8 @@ h1 {
 
 .calendar-card td {
   position: relative;
-  height: 68px;
-  padding: 6px;
+  height: 58px;
+  padding: 5px;
   vertical-align: top;
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -239,7 +266,7 @@ h1 {
 
 .event-day a {
   display: block;
-  margin-top: 5px;
+  margin-top: 3px;
   color: var(--ink);
   line-height: 1.15;
   text-decoration: none;
@@ -259,7 +286,7 @@ h1 {
 }
 
 .event-day a span {
-  margin-top: 3px;
+  margin-top: 2px;
   color: var(--green);
   font-size: 0.52rem;
 }
@@ -274,7 +301,7 @@ h1 {
 }
 
 .schedule {
-  padding: 5px 0 120px;
+  padding: 0 0 72px;
 }
 
 .section-title {
@@ -302,7 +329,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 58px;
+  margin-top: 38px;
   padding: 0 0 12px;
   border-bottom: 1px solid var(--line);
 }
@@ -327,8 +354,8 @@ h1 {
   grid-template-columns: 92px minmax(0, 1fr) 125px 174px;
   gap: 26px;
   align-items: center;
-  min-height: 125px;
-  padding: 21px 0;
+  min-height: 104px;
+  padding: 15px 0;
   border-bottom: 1px solid var(--line);
   scroll-margin-top: 20px;
 }
@@ -448,7 +475,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: min(calc(100% - 48px), var(--max-width));
-  min-height: 110px;
+  min-height: 78px;
   margin: 0 auto;
   color: var(--muted);
   border-top: 1px solid var(--line);
@@ -494,11 +521,11 @@ footer span:first-child {
   }
 
   .introduction {
-    padding: 66px 0 60px;
+    padding: 44px 0 42px;
   }
 
   .lede {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
   }
 
   .seminar-details {
@@ -521,11 +548,11 @@ footer span:first-child {
   }
 
   .schedule {
-    padding-bottom: 85px;
+    padding-bottom: 60px;
   }
 
   .calendar-overview {
-    padding-bottom: 80px;
+    padding-bottom: 55px;
   }
 
   .calendar-heading {
@@ -545,13 +572,13 @@ footer span:first-child {
   }
 
   .month {
-    margin-top: 44px;
+    margin-top: 32px;
   }
 
   .talk {
     grid-template-columns: 70px minmax(0, 1fr);
     gap: 15px;
-    padding: 20px 0;
+    padding: 15px 0;
   }
 
   .talk-details h4 {
