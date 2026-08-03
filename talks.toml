@@ -1,0 +1,141 @@
+# Edit this file, then run: python3 generate.py
+
+[seminar]
+calendar_start = 2026-08-02
+calendar_end = 2026-09-19
+default_time = "14:00–16:00"
+default_room = "CSIE 340"
+
+[[talks]]
+id = "pp"
+date = 2026-08-07
+speaker = "Pepe"
+title = "PP Is Closed under Intersection"
+short_title = "PP intersection"
+links = [
+  { label = "Original", url = "https://www.sciencedirect.com/science/article/pii/S0022000085710173" },
+  { label = "Modern", url = "https://scottaaronson.com/papers/pp.pdf" },
+]
+
+[[talks]]
+id = "van-der-waerden"
+date = 2026-08-10
+speaker = "Lin Chang-Hong"
+title = "Van der Waerden’s Conjecture"
+short_title = "Van der Waerden"
+links = [
+  { label = "Original", url = "https://www.mathnet.ru/eng/dan44514" },
+  { label = "Modern", url = "https://annas-archive.org/md5/0ee5421d5a27a8d5ffbcd180ccb5a9bf" },
+]
+
+[[talks]]
+id = "primes"
+date = 2026-08-11
+speaker = "Wang Hsin-Po"
+title = "Something coding related"
+short_title = "Coding"
+links = [
+  { label = "Original", url = "https://www.cse.iitk.ac.in/users/manindra/algebra/primality_original.pdf" },
+  { label = "Modern", url = "https://web.archive.org/web/20240419074127/https://www.cs.tau.ac.il/~amnon/Classes/2019-Derandomization/Lectures/Lecture7-AKS-All.pdf" },
+]
+
+[[talks]]
+id = "truth-table"
+date = 2026-08-14
+speaker = "Po-Chieh"
+title = "Truth-Table Reducibility"
+short_title = "Truth tables"
+links = [
+  { label = "Original", url = "https://dl.acm.org/doi/10.1145/100216.100276" },
+  { label = "Modern", url = "https://www.sciencedirect.com/science/article/pii/S0022000005800066" },
+]
+
+[[talks]]
+id = "equiangular"
+date = 2026-08-17
+speaker = "You-Shen"
+title = "Equiangular Lines"
+short_title = "Equiangular lines"
+links = [
+  { label = "Original", url = "https://arxiv.org/pdf/1907.12466" },
+  { label = "Modern" },
+]
+
+[[talks]]
+id = "space-prgs"
+date = 2026-08-19
+speaker = "Shun"
+title = "Pseudorandom Generators for Space"
+short_title = "Space PRGs"
+links = [
+  { label = "Original", url = "https://www.cs.toronto.edu/tss/files/papers/Nisan_PRG.pdf" },
+  { label = "Modern", url = "https://cs.purdue.edu/homes/weizhan/courses/Fall2025_CS59200/lec67.pdf" },
+]
+
+[[talks]]
+id = "sparsest-cut"
+date = 2026-08-24
+speaker = "Huang Shang-En"
+title = "Something graph related"
+short_title = "Graphs"
+links = [
+  { label = "Original", url = "https://people.eecs.berkeley.edu/~vazirani/pubs/arvjacm.pdf" },
+  { label = "Modern", url = "https://arxiv.org/abs/1607.00854" },
+]
+
+[[talks]]
+id = "relativization"
+date = 2026-08-25
+speaker = "Elio"
+title = "Relativization of the P vs NP Question"
+short_title = "Relativization"
+links = [
+  { label = "Original", url = "https://doi.org/10.1137/0204037" },
+  { label = "Modern", url = "https://ocw.mit.edu/courses/18-405j-advanced-complexity-theory-spring-2016/resources/95da3f6c4aebf07a34e6dca91861f1c7_MIT18_405JS16_Relativ.pdf" },
+]
+
+[[talks]]
+id = "triangle"
+date = 2026-09-01
+speaker = "Jian Jia-Ho"
+title = "Triangle-Free Graphs"
+short_title = "Triangle-free"
+links = [
+  { label = "Original", url = "https://people.tamu.edu/~huafei-yan/Teaching/Math689/ramsey5.pdf" },
+  { label = "Modern", url = "https://arxiv.org/abs/2510.19718" },
+]
+
+[[talks]]
+id = "independence"
+date = 2026-09-02
+speaker = "Edison"
+title = "Polylogarithmic Independence"
+short_title = "Polylog independence"
+links = [
+  { label = "Original", url = "https://www.cs.toronto.edu/~mbraverm/FoolAC0v6.pdf" },
+  { label = "Modern I", url = "https://www.cs.columbia.edu/~rocco/Teaching/S24/Scribe/2024-03-19-scribe-notes.pdf" },
+  { label = "Modern II", url = "https://www.cs.columbia.edu/~rocco/Teaching/S24/Scribe/2024-03-26-scribe-notes.pdf" },
+]
+
+[[talks]]
+id = "factors"
+date = 2026-09-03
+speaker = "Nelson"
+title = "Factors in Random Graphs"
+short_title = "Random factors"
+time = "10:30–12:30"
+links = [
+  { label = "Original", url = "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rsa.20224" },
+  { label = "Modern", url = "https://arxiv.org/pdf/2203.17207" },
+]
+
+[[talks]]
+id = "hirsch"
+date = 2026-09-14
+speaker = "You-Ting"
+title = "The Hirsch Lower Bound"
+short_title = "Hirsch bound"
+links = [
+  { label = "Original", url = "https://arxiv.org/pdf/1006.2814" },
+  { label = "Modern", url = "http://personales.unican.es/santosf/Hirsch/index.html" },
+]
